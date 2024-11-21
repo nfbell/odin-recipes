@@ -1,0 +1,55 @@
+/* Adding Universal font, color, etc. */
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(50, 100%, 98%);
+}
+
+/* Types */
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(26, 0, 130);
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400px;
+}
+
+/* Classes */
+.apricot {
+    color: rgb(94, 40, 7);
+    background-color: rgb(137, 218, 158);
+}
+
+.key-lime {
+    color: rgb(255, 0, 106);
+    background-color: rgb(205, 255, 176);
+}
+
+.ingredients,
+.ingredients * {
+    background-color: white;
+}
+
+.ingredients {
+    border-style: solid;
+    border-width: thin;
+    border-color:lightgray;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.notes,
+.notes * {
+    background-color: black;
+    color: wheat;
+}
+
+.food-img{
+    height: 512px;
+    width: auto;
+}
